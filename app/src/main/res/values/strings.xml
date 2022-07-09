@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BookAPP</string>
+    <string name="new_user_text">New User? <b>SignUp?</b></string>
+    <string name="sign_text">Developed By:\nRishabh Kumar</string>
+</resources>

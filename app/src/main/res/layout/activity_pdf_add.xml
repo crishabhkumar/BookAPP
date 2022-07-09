@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activities.PdfAddActivity">
+
+    <!--    Toolbar-->
+    <RelativeLayout
+        android:id="@+id/toolbarRL"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/toolbar_shape1">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/back_icon" />
+
+        <ImageView
+            android:id="@+id/toolbarIcon"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbarIcon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Add a New Book"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <!--        Attach pdf button-->
+        <ImageButton
+            android:id="@+id/btnAttach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:src="@drawable/attach_icon" />
+
+    </RelativeLayout>
+
+    <!--    Input Title-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pdftitleTIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="30dp"
+        app:hintEnabled="false">
+
+        <EditText
+            android:id="@+id/edtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_shape1"
+            android:drawableStart="@drawable/pdf_icon"
+            android:drawablePadding="10dp"
+            android:hint="Book Title"
+            android:inputType="textPersonName|textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray01"
+            android:textSize="16sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--    Input Description-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pdfDescriptionTIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pdftitleTIL"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:hintEnabled="false">
+
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_shape1"
+            android:drawableStart="@drawable/description_icon"
+            android:drawablePadding="10dp"
+            android:hint="Book Description"
+            android:inputType="textPersonName|textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray01" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    Pick category from dialog-->
+    <TextView
+        android:id="@+id/txtPdfCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pdfDescriptionTIL"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edit_text_shape1"
+        android:drawableStart="@drawable/category_icon"
+        android:drawableEnd="@drawable/drop_down_icon"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="Book Category"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray01"
+        android:textSize="16sp" />
+
+
+    <!--    Upload button-->
+    <Button
+        android:id="@+id/btnPdfSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPdfCategory"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn_shape1"
+        android:text="Upload"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
