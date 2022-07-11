@@ -33,8 +33,15 @@ Kotlin Android Application
     
     
 ### Screenshots of App
-![Screenshot_2022-07-10-13-03-18-45_d4358f7e6d57b24f8f47410ccd5b6909](https://user-images.githubusercontent.com/70275515/178137378-4bafe1fb-1428-4666-850d-9837507daf37.jpg)
-![Screenshot_2022-07-10-13-03-23-31_d4358f7e6d57b24f8f47410ccd5b6909](https://user-images.githubusercontent.com/70275515/178137383-90c8dbe0-cdc4-450b-adb8-e8cadc0eb101.jpg)
-![Uploading Screen![Screenshot_2022-07-10-13-03-29-95_d4358f7e6d57b24f8f47410ccd5b6909](https://user-images.githubusercontent.com/70275515/178137395-ad26c736-f91a-468b-aa38-9d0ac0a652e5.jpg)
-shot_2022-07-10-13-03-26-15_d4358f7e6d57b24f8f47410ccd5b6909.jpg…]()
+<p float="left">
+<img src="https://user-images.githubusercontent.com/70275515/178137378-4bafe1fb-1428-4666-850d-9837507daf37.jpg"  width=240 height=500>
+<img src="https://user-images.githubusercontent.com/70275515/178137383-90c8dbe0-cdc4-450b-adb8-e8cadc0eb101.jpg"  width=240 height=500>
+<img src="https://user-images.githubusercontent.com/70275515/178195464-7a662966-1682-4e2d-8f00-be67a103528f.jpg"  width=240 height=500>
+<img src="https://user-images.githubusercontent.com/70275515/178137395-ad26c736-f91a-468b-aa38-9d0ac0a652e5.jpg"  width=240 height=500>
+</p>
+
+### How to register yourself?
+https://user-images.githubusercontent.com/70275515/178195764-d2384030-f472-4114-a9a9-327bc512ebca.mp4
+
+
 
